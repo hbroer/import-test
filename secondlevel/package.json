@@ -1,0 +1,19 @@
+{
+  "name": "secondlevel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "prepack": "rm -rf dist; microbundle --format es,cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "microbundle": "^0.11.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "firstlevel": "file:../firstlevel/firstlevel-1.0.0.tgz"
+  }
+}
