@@ -11,6 +11,35 @@ Can't import the named export 'FirstLevel' from non EcmaScript module (only defa
  @ ./src/index.ts
 ```
 
+### When it fails?
+
+When ever the extension of the module is mjs, like index.mjs or index.module.mjs it fails:
+
+```json
+{
+  "main": "dist/index.js",
+  "module": "dist/index.mjs"
+}
+```
+and also
+```json
+{
+  "main": "dist/index.js",
+  "module": "dist/index.module.mjs"
+}
+```
+
+### When does it work?
+
+When the extension of the module is set to js.
+
+```json
+{
+  "main": "dist/index.js",
+  "module": "dist/index.module.js"
+}
+```
+
 ### Steps to reproduce:
 
 ```shell script
@@ -27,3 +56,4 @@ rm -rf node_modules package-lock.json
 npm install
 npm run build
 ```
+

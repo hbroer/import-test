@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "microbundle": "^0.11.0",
+    "microbundle": "^0.12.0-next.8",
     "typescript": "^3.8.3"
   }
 }
