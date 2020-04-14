@@ -39,6 +39,7 @@ When the extension of the module is set to js.
   "module": "dist/index.module.js"
 }
 ```
+**OR** when building with **Webpack 5 Beta** then it also works with .mjs extensions. 
 
 ### Steps to reproduce:
 
