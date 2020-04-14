@@ -11,8 +11,6 @@ module.exports = () => ({
         filename: "[name].js",
     },
 
-    devtool: "none",
-
     resolve: {
         extensions: [".ts", ".tsx", ".mjs", ".js"],
         mainFields: ['module', 'main'],
