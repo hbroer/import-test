@@ -1,1 +1,0 @@
-{"version":3,"file":"index.js","sources":["../src/index.ts"],"sourcesContent":["import {FirstLevel} from \"firstlevel\"\n\nexport class SecondLevel {\n    hello = new FirstLevel().hello;\n}\n"],"names":["constructor","FirstLevel","hello"],"mappings":"gDAEAA,uBACY,IAAIC,cAAaC"}

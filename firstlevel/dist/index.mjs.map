@@ -1,1 +1,0 @@
-{"version":3,"file":"index.mjs","sources":["../src/index.ts"],"sourcesContent":["export class FirstLevel {\n    hello = \"world\";\n}\n"],"names":["FirstLevel","constructor"],"mappings":"IAAaA,EAAbC,sBACY"}

@@ -15,12 +15,15 @@ Can't import the named export 'FirstLevel' from non EcmaScript module (only defa
 
 ```shell script
 cd firstlevel
+rm -rf node_modules package-lock.json
 npm install
 npm pack
 cd ../secondlevel
+rm -rf node_modules package-lock.json
 npm install
 npm pack
 cd ../toplevel
+rm -rf node_modules package-lock.json
 npm install
 npm run build
 ```
